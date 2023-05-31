@@ -30,7 +30,7 @@ app.use(morgan('common'));
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cors({
-  origin: ['http://localhost:3000', 'https://admin-client.onrender.com'],
+  origin: ['http://localhost:3000', 'https://admin-client-api.onrender.com'],
   credentials: true
 }));
 
