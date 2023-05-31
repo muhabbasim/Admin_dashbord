@@ -23,7 +23,6 @@ import Monthly from "./pages/monthly/Monthly";
 import { useQuery } from '@tanstack/react-query'
 import newRequest from './state/newRequest';
 
-
 function App() {
 
   // mui theme settting
